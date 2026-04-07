@@ -86,8 +86,15 @@ margin-right:20px;
 color:white;
 position:relative;
 overflow:hidden;
-background:url('img2.jpg') no-repeat center center;
+
+/* move image slightly down */
+background:url('img2.jpg') no-repeat center 60%;
+
+/* keep full cover */
 background-size:cover;
+
+/* make it look less dull */
+filter: brightness(1.15) contrast(1.1);
 }
 
 .final-content{
@@ -431,7 +438,7 @@ Itlu,<br>
 <div class="page" id="gifts">
 <h2>Choose your gift 🎁</h2>
 <button onclick="alert('Hug 🤗-Long Distance')">Hug</button>
-<button onclick="alert('Chocolate 🍫- will give it to you when we meet')">Chocolate</button>
+<button onclick="alert('Chocolate 🍫- I will give it to you when we meet')">Chocolate</button>
 <button onclick="openVideo()">Special Surprise 🎬</button>
 </div>
 
